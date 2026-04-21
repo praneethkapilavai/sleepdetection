@@ -22,8 +22,6 @@ You can download the library from <a href="https://github.com/Nisarg1112/Driver-
 
 **📸 Here is a Image to show 68 points on our face**
 
-<img src="assets/68_landmark.jpeg" height=300px><br>
-
 👉 Then, I am calculating Eye Aspect Ratio (EAR) of Left Eye and Right Eye using Euclidean Distance between 3 pairs of different coordinates of both the eyes as seen in 68 Points landmark's image!
 
 👉 Then, I set a threshold value, If EAR goes below that threshold point, It will alert the driver!
