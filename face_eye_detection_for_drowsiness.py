@@ -1,7 +1,7 @@
 import cv2
 import dlib
 from scipy.spatial import distance
-from playsound import playsound
+# from playsound import playsound
 
 import time
 def eye_aspect_ratio(eye):
@@ -21,7 +21,7 @@ def lips_aspect_ratio(lips):
 
 cap = cv2.VideoCapture(0)
 hog_face_detector = dlib.get_frontal_face_detector()
-dlib_facelandmark = dlib.shape_predictor(r"C:\Users\Nisarg Trivedi\ML projects\Face Landmark Detection\shape_predictor_68_face_landmarks.dat\shape_predictor_68_face_landmarks.dat")
+dlib_facelandmark = dlib.shape_predictor("shape_predictor_68_face_landmarks.dat/shape_predictor_68_face_landmarks.dat")
 
 # Declare another costant to hold the consecutive number of frames to consider for a blink 
 CONSECUTIVE_FRAMES = 20 
