@@ -18,7 +18,7 @@
 ## 💡 Implementation of the Logic
 
 👉 Basically, I used the famous dlib library which can estimate the location of 68 coordinates (x, y) that map the facial points on a person’s face in real-time.<br>
-You can download the library from <a href="https://github.com/Nisarg1112/Driver-s-Drowsiness-Detection-using-OpenCV-Python/tree/main/shape_predictor_68_face_landmarks.dat">here.</a>
+You can download the library from <a href="https://github.com/praneethkapilavai/sleepdetection/tree/main/shape_predictor_68_face_landmarks.dat">here.</a>
 
 **📸 Here is a Image to show 68 points on our face**
 
@@ -35,7 +35,7 @@ You can download the library from <a href="https://github.com/Nisarg1112/Driver-
 Just follow 4 simple steps:
 
 1. Clone repository to preserve directory structure<br>
-`git clone https://github.com/Nisarg1112/Driver-s-Drowsiness-Detection-using-OpenCV-Python.git`
+`git clone https://github.com/praneethkapilavai/sleepdetection.git`
 2. Go to your favorite code editor and open Command Prompt (cmd) amd go to directory where you cloned this repo
 3. Run this command in cmd<br>
    `pip install -r requirements.txt`
